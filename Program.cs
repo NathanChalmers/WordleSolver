@@ -18,11 +18,23 @@ namespace WordleSolver
             Console.WriteLine("3. Green Letters only need to be entered the frist time they appear");
             Console.WriteLine("4. If no letters match enter no");
             Console.WriteLine("5. If the wordle has been solved enter success");
+            
+            Console.Write("\n\n How many guesses have you already made? (Enter 0 through 6)");
+            int madeGuesses = Convert.ToInt32(Console.ReadLine().Trim());
 
             bool isSolved = false;
             for (int i = 1; i <= 5; i++)
             {
-                Console.WriteLine("\n\nGuess #" + i + ": " + words.MostLikely());
+                if (i <= madeGuesses)
+                {
+                    Console.Write("\n\nWhat was your Guess #" + i + "? ");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("\n\nGuess #" + i + ": " + words.MostLikely());
+                }
+                
                 isSolved = ParseLockedLetters(words);
 
                 if (isSolved)
