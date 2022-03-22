@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -227,7 +227,7 @@ namespace WordleSolver
                 List<Node> children = search.Children.Values.ToList();
                 int index = r.Next(children.Count);
 
-                if (children[index] != null)
+                if (children[index] != null && children[index].TotalSuccessors > 0)
                 {
                     search = children[index];
                 }
