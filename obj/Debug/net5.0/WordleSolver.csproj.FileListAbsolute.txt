@@ -1,0 +1,17 @@
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\bin\Debug\net5.0\words_wordleofficial.txt
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\bin\Debug\net5.0\WordleSolver.exe
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\bin\Debug\net5.0\WordleSolver.deps.json
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\bin\Debug\net5.0\WordleSolver.runtimeconfig.json
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\bin\Debug\net5.0\WordleSolver.runtimeconfig.dev.json
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\bin\Debug\net5.0\WordleSolver.dll
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\bin\Debug\net5.0\ref\WordleSolver.dll
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\bin\Debug\net5.0\WordleSolver.pdb
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\obj\Debug\net5.0\WordleSolver.csproj.AssemblyReference.cache
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\obj\Debug\net5.0\WordleSolver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\obj\Debug\net5.0\WordleSolver.AssemblyInfoInputs.cache
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\obj\Debug\net5.0\WordleSolver.AssemblyInfo.cs
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\obj\Debug\net5.0\WordleSolver.csproj.CoreCompileInputs.cache
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\obj\Debug\net5.0\WordleSolver.dll
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\obj\Debug\net5.0\ref\WordleSolver.dll
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\obj\Debug\net5.0\WordleSolver.pdb
+C:\Users\nathanc\OneDrive - Microsoft\Documents\Visual Studio Projects\WordleSolver\WordleSolver\obj\Debug\net5.0\WordleSolver.genruntimeconfig.cache
