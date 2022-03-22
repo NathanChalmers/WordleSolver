@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 
@@ -9,7 +9,8 @@ namespace WordleSolver
         static void Main(string[] args)
         {
             NodeCollection words = new NodeCollection();
-            words.AddDictionary("./words_alpha.txt");
+            words.AddDictionary("./words_wordleofficial.txt");
+            //words.AddDictionary("./words_test.txt");
 
             Console.WriteLine("WorldeSolver!\n\n");
             Console.WriteLine("Instructions: Answer each of the prompts using the following options to generate a new guess");
@@ -18,12 +19,12 @@ namespace WordleSolver
             Console.WriteLine("3. Green Letters only need to be entered the frist time they appear");
             Console.WriteLine("4. If no letters match enter no");
             Console.WriteLine("5. If the wordle has been solved enter success");
-            
+
             Console.Write("\n\n How many guesses have you already made? (Enter 0 through 6)");
             int madeGuesses = Convert.ToInt32(Console.ReadLine().Trim());
 
             bool isSolved = false;
-            for (int i = 1; i <= 5; i++)
+            for (int i = 1; i <= 6; i++)
             {
                 if (i <= madeGuesses)
                 {
@@ -32,7 +33,8 @@ namespace WordleSolver
                 }
                 else
                 {
-                    Console.WriteLine("\n\nGuess #" + i + ": " + words.MostLikely());
+                    //Console.WriteLine("\n\nGuess #" + i + ": " + words.MostLikely());
+                    Console.WriteLine("\n\nGuess #" + i + ": " + words.RandomSearch());
                 }
                 
                 isSolved = ParseLockedLetters(words);
